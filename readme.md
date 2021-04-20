@@ -21,6 +21,8 @@ The plus and minus buttons seemed to have changed. I was not able to review the 
 And this for minus
 ![](images/minus-button.png)
 
+Zooming in on the data, it seems we get a 1 ms (1000 us) oscillation of 250 KHz at 20 mVpp, followed by 2 ms (2000 us) of either 150 KHz or 125 KHz oscillations at 30 mVpp, for + and - respectively. This is going to require some work to recreate, as the microphone audio is coming in over the same line. We might be able to use a pre-amplifier to amplifiy the signal, but getting the power supply noise down to a respectable level so we can distinguish the signal is probably going to be a challenge
+
 ### Microphone
 It seems the microhone is always active, alongside the buttons. Setting the vertical resolution to 100mV or less, and whistiling into the mic shows some oscillations on the oscilloscope. 
 
