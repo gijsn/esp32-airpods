@@ -10,7 +10,7 @@ First, we need to Splicing the cable of a working set of earpods with lightning 
 
 ### Power-on signaling
 In the article, a power-on signalling was discussed, as seen fromn the button side. In this case, the buttons are perfectly operational, but Im looking to simulate the iPhone side of things. Measuring the power-on signalling on the device, we see this behaviour.
-![](iamges/poweron.png)
+![](images/poweron.png)
 Comparing this to the article, we can determine which side sends the signals, and this should be easily replicable.
 ### Buttons
 The center button, as before, shorts the CTL line to ground:
