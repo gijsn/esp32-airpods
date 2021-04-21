@@ -31,6 +31,6 @@ It seems the microhone is always active, alongside the buttons. Setting the vert
 
 To amplify both the Microphone signal and button signals, I used the LM324N general purpose operational amplifier with the following circuit setup:
 ![](images/amp.jpeg)
-![](images/amp-circuit.png)
-Which should amplify the signal 11x, as we see in the result here: (did not have time to transfer properly beteen the scope and my PC)
+![](images/amp-circuit.PNG)
+Which should amplify the signal 11x, as we see in the result here: (was not able to get the screenshot properly)
 ![](images/amped-signal.jpeg)
